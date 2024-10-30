@@ -32,10 +32,10 @@ class _LoginState extends State<Login> {
                   labelText: 'Email address',
                   labelStyle: GoogleFonts.nunito(color: Colors.black), 
                   enabledBorder: const OutlineInputBorder(
-                    borderSide: BorderSide(color: Colors.black, width: 1), // Borda rosa no estado normal
+                    borderSide: BorderSide(color: Colors.black, width: 1), 
                   ),
                   focusedBorder: const OutlineInputBorder(
-                    borderSide: BorderSide(color: Colors.black, width: 2), // Borda rosa quando focada
+                    borderSide: BorderSide(color: Colors.black, width: 2), 
                   ),
                 ),
               ),
@@ -49,10 +49,10 @@ class _LoginState extends State<Login> {
                   labelText: 'Password',
                   labelStyle: GoogleFonts.nunito(color: Colors.black), 
                   enabledBorder: const OutlineInputBorder(
-                    borderSide: BorderSide(color: Colors.black, width: 1), // Borda rosa no estado normal
+                    borderSide: BorderSide(color: Colors.black, width: 1), 
                   ),
                   focusedBorder: const OutlineInputBorder(
-                    borderSide: BorderSide(color: Colors.black, width: 2),// Borda rosa quando focada
+                    borderSide: BorderSide(color: Colors.black, width: 2),
                   ),
                   ),
                 ),
