@@ -1,4 +1,5 @@
 import 'package:app_mulheres_campo/cadastro.dart';
+import 'package:app_mulheres_campo/login.dart';
 import 'package:flutter/material.dart';
 
 class HomeWidget extends StatefulWidget {
@@ -33,11 +34,16 @@ Widget botaoTela(BuildContext context){
                           borderRadius: BorderRadius.circular(100))),
                 ),
                 onTap: () => outraTela(),
+                onLongPress: () => telaLogin() ,
               )
             ]);
 }
 void outraTela(){
   Navigator.push(context, MaterialPageRoute(builder: (context) => const CadastroWidget()));
+}
+
+void telaLogin(){
+  Navigator.push(context, MaterialPageRoute(builder: (context) => const Login()));
 }
 
   @override
